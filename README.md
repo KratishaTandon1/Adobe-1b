@@ -15,14 +15,14 @@ An intelligent document analysis system that extracts and prioritizes the most r
 ## Quick Start with Docker
 
 1. *Build the Docker image:*
-   bash
+  <pre>
    docker build --platform linux/amd64 -t persona-task .
-   
+   </pre>
 
 2. *Run the container:*
-   bash
-   docker run --rm -v "${PWD}:/app" persona-task      
-   
+<pre>
+   docker run --rm -v "${PWD}:/app" persona-task   
+   </pre>
 
 
 
